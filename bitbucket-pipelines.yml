@@ -13,6 +13,8 @@ image: atlassian/default-image:latest
 
 # Go with pipeline
 pipelines:
+
+  # any brance, https://confluence.atlassian.com/bitbucket/branch-workflows-in-bitbucket-pipelines-856697482.html
   default:
     - step:
         script: 
